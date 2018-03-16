@@ -1,0 +1,11 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {I}Foreword}{2}{chapter.1}
+\contentsline {chapter}{\numberline {II}Introduction}{3}{chapter.2}
+\contentsline {chapter}{\numberline {III}General instructions}{4}{chapter.3}
+\contentsline {chapter}{\numberline {IV}Mandatory part: Ruby}{5}{chapter.4}
+\contentsline {subsection}{\numberline {IV.0.1}Sample Input/Output}{5}{subsection.4.0.1}
+\contentsline {subsection}{\numberline {IV.0.2}example}{5}{subsection.4.0.2}
+\contentsline {chapter}{\numberline {V}Mandatory part: Python}{6}{chapter.5}
+\contentsline {subsection}{\numberline {V.0.1}Sample input/output}{6}{subsection.5.0.1}
+\contentsline {subsection}{\numberline {V.0.2}example}{6}{subsection.5.0.2}
+\contentsline {chapter}{\numberline {VI}Turn-in and peer-evaluation}{7}{chapter.6}

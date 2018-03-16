@@ -1,0 +1,197 @@
+%******************************************************************************%
+%                                                                              %
+%                   Rush00.tex                                                 %
+%                   Made by: Coderbyte.com                                     %
+%                                                                              %
+%******************************************************************************%
+
+\documentclass{42-en}
+
+
+%******************************************************************************%
+%                                                                              %
+%                                    Header                                    %
+%                                                                              %
+%******************************************************************************%
+\begin{document}
+
+    \title{The Path Less Traveled}
+    \subtitle{Which Path Will You Take?}
+
+        \summary {
+              Two roads diverged in a wood, and I- I took the one \texttt{less} 
+              traveled by, And that has made all the \href{https://www.youtube.com/watch?v=ZXsQAXxPo0}{difference}.
+        }
+
+\maketitle
+
+\tableofcontents
+
+%******************************************************************************%
+%                                                                              %
+%                                  Foreword                                    %
+%                                                                              %
+%******************************************************************************%
+\chapter{Foreword}
+
+    Unanswerable Questions\\
+
+    \begin{itemize}\itemsep1pt
+        \item If the number 2 pencil is the most popular, why is it still number 2?
+        \item If you try to fail, and succeed, which have you done?
+        \item Is there another word for synonym?
+        \item Isn't it a bit unnerving that doctors call what they do "practice?"
+        \item If you choke a Smurf, what color will it turn?
+        \item How do Keep Off The Grass signs get there?
+        \item If a person told you they were a pathological liar, would you believe them?
+        \item If pro is the opposite of con, and progress is moving forward, what is 
+    congress?
+        \item Why is "abbreviated" such a long word?
+        \item Why is lemon juice made with artificial flavor and dishwashing liquid 
+    made with real lemons?
+        \item What is the color of a mirror?
+        \item If you enjoy wasting time, is that time really wasted?
+    \end{itemize}
+   
+    \begin{center}
+        \includegraphics[width=0.45\textwidth]{meme.jpg}
+    \end{center}
+
+%******************************************************************************%
+%                                                                              %
+%                                 Introduction                                 %
+%                                                                              %
+%******************************************************************************%
+\chapter{Introduction}
+
+    This is your first Problem of the Day! Here's a chance for you to show us 
+    your fast problem solving skills. The goal of this project is to take a break
+    from your usual projects to do a quick challenge that will make you really 
+    think fast since it's timed! There are no consequences from failing! This is 
+    supposed to be a fun exercise for everyone to try. Have fun with it. 
+
+%******************************************************************************%
+%                                                                              %
+%                             General instructions                             %
+%                                                                              %
+%******************************************************************************%
+\chapter{General instructions}
+
+    \begin{itemize}\itemsep1pt
+        \item This project will be corrected by peers.
+        % \item You must have a file called correctPath.rb or correctPath.py turned in the correct directory (rush00).
+        \item Your project must be written in a language approved by
+        the hack high school program.
+        \item You will only have until 2 pm to finish and push your project.
+        \item You only have to choose one language to do this challenge in,
+         Ruby or Python.
+        \item Ask your peers, mentor, slack or anywhere else if you need
+        any help, and make sure to have fun\\
+    \end{itemize}
+
+  \warn {
+            Don't forget to test your code when you're done with it with
+            multiple test cases
+    }
+
+%******************************************************************************%
+%                                                                              %
+%                             Mandatory part                                   %
+%                                                                              %
+%******************************************************************************%
+\chapter{Mandatory part: Ruby}
+\extitle{Find the path}
+\exnumber{rush00}
+\exscore{2}
+\exfiles{correctPath.rb}
+\exauthorize{All}
+% \makeheaderfiles
+    Using the Ruby language, have the function correctPath(str) read the argument parameter being passed, which will represent the movements made in a 5x5 grid of cells starting from the top left position. The characters in the input string will be entirely composed of: r, l, u, d, ?. Each of the characters stand for the direction to take within the grid, for example: r = right, l = left, u = up, d = down. Your goal is to determine what characters the question marks should be in order for a path to be created to go from the top left of the grid all the way to the bottom right without touching previously travelled on cells in the grid. 
+
+    For example: if str is "r?d?drdd" then your program should output the final correct string that will allow a path to be formed from the top left of a 5x5 grid to the bottom right. For this input, your program should therefore return the string rrdrdrdd. There will only ever be one correct path and there will always be at least one question mark within the input string. 
+
+    \subsection{Sample Input/Output}
+
+           \begin{42console}
+            ruby ./correctPath.rb "???rrurdr?"
+            >>dddrrurdrd
+            \end{42console}
+
+    \subsection{example}
+
+           \begin{42ccode}
+                def correctPath(str)
+
+                # code goes here
+                return str 
+                         
+                end
+                   
+                # keep this function call here    
+                puts correctPath(STDIN.gets) 
+            \end{42ccode}
+
+%******************************************************************************%
+%                                                                              %
+%                             Mandatory part                                   %
+%                                                                              %
+%******************************************************************************%
+\chapter{Mandatory part: Python}
+\extitle{Find the path}
+\exnumber{rush00}
+\exscore{2}
+\exfiles{correctPath.py}
+\exauthorize{All}
+
+    Using the Python language, have the function correctPath(str) read the str 
+    parameter being passed, which will represent the movements made in a 5x5 
+    grid of cells starting from the top left position. The characters in the 
+    input string will be entirely composed of: r, l, u, d, ?. Each of the 
+    characters stand for the direction to take within the grid, for example: 
+    r = right, l = left, u = up, d = down. Your goal is to determine what 
+    characters the question marks should be in order for a path to be created
+     to go from the top left of the grid all the way to the bottom 
+     right without touching previously travelled on cells in the grid. 
+
+    For example: if str is "r?d?drdd" then your program should output the 
+    final correct string that will allow a path to be formed from the top 
+    left of a 5x5 grid to the bottom right. For this input, your program 
+    should therefore return the string rrdrdrdd. There will only ever be
+    one correct path and there will always be at least one question mark 
+    within the input string.
+
+    \subsection{Sample input/output}
+
+           \begin{42console}
+            python ./correctPath.py "???rrurdr?"
+            >>dddrrurdrd
+            \end{42console}
+
+    \subsection{example}
+
+           \begin{42ccode}
+                def correctPath(str): 
+
+                    # code goes here 
+                    return str
+                    
+                # keep this function call here  
+                print correctPath(rawPnput()) 
+            \end{42ccode}
+
+%******************************************************************************%
+%                                                                              %
+%                           Turn-in and peer-evaluation                        %
+%                                                                              %
+%******************************************************************************%
+\chapter{Turn-in and peer-evaluation}
+
+    Turn your work in using your \texttt{GiT} repository, as
+    usual. Only work present on your repository will be graded in defense.\\
+
+    Good luck and remember to have fun!
+
+
+
+%******************************************************************************%
+\end{document}
