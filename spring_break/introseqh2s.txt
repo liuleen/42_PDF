@@ -1,0 +1,72 @@
+Day 0:
+- puts & gets
+- command line
+*
+Command Line
+Hello, World
+What is your Name
+*
+
+
+Day 1:
+- string interpolation
+- if/else
+- array of strings
+- argv
+*
+What is your Name (with string interpolation)
+Daenarys
+ARR matey
+Old MacDonald
+*
+
+
+Day 2:
+- types and casting
+- modulo
+- loops
+*
+Number Types
+Prime Suspects
+Project Euler
+101010 (built in)
+101010 (custom)
+*
+
+
+Day 3:
+- more complexity of functions
+- case/switch
+- infinite loops
+*
+Bool
+Math Class
+Guessing Game
+*
+
+
+Day 4:
+- hashtables
+- file input
+- regex intro
+*
+PaReNtHeSiS
+State Capitols
+Student Directory
+*
+
+Final Project:
+
+Hangman
+- File input for dictionary
+- ARGV for name of file to read in
+- Infinite loop for turns
+- Lives counter
+- Print to terminal (prewritten animated output)
+- String interpolation of word so far, with blanks
+- Modulo to set every other char of the blanks to _, and space ("_ _ _ _ _ _ _")
+- Use gets to pull in the length of word you prefer
+- Case/switch for game menu
+- If statements for checking guesses
+- String maniuplation to set letters in blanks
+- Upon file input, use case/switch and regex to place words into a hashtable based on number of letters
